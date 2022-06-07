@@ -33,3 +33,17 @@
         width: 120px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .footer {
+        padding: 60px 0px;
+    }
+    .footer__info-title {
+        font-size: 20px;
+    }
+
+    .footer__info-company {
+        font-size: 14px;
+    }
+
+}
