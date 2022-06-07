@@ -1,0 +1,83 @@
+.job__item {
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.job__image {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    margin-left: 2vw;
+    position: absolute;
+    top: -15px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 6vh;
+    width: 4vw;
+}
+
+.job__info {
+    margin-left: 2vw;
+    margin-top: 6vh;
+    font-family: var(--font-alt);
+}
+
+.job__time {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.75vw;
+    color: #6E8098;
+    font-weight: 600;
+    margin-top: 4vh;
+}
+
+.job__time-period {
+    font-size: 2vw;
+    margin-bottom: 4px;
+}
+
+.job__position {
+    color: #19202D;
+    font-size: 1.4vw;
+    font-weight: 700;
+}
+
+.job__company {
+    color: #6E8098;
+    font-weight: 400;
+    margin-top: 1vh;
+}
+
+.job__location {
+    margin-top: 6vh;
+    margin-bottom: 4vh;
+    color: #5964E0;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1000px) {
+    .job__position {
+        margin-top: 3vh;
+        font-size: 2.2vw;
+    }
+
+    .job__company {
+        margin-top: 2vh;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .job__image {
+        width: 15%;
+    }
+
+    .job__position {
+        font-size: 4vw;
+    }
+}

@@ -1,0 +1,24 @@
+.jobs__wrapper {
+    margin-top: 20vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 4rem;
+    column-gap: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .jobs__wrapper {
+        margin: 10vw 5vw;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .jobs__wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 15vh;
+    }    
+}

@@ -1,0 +1,25 @@
+.footer {
+    height: 10vh;
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__info {
+    font-family: var(--font-alt);
+}
+
+.footer__info-title {
+    font-size: calc(1vw + 2px);
+    font-weight: 700;
+    margin-bottom: 1vh;
+}
+
+.footer__info-company {
+    font-size: calc(1vw - 2px);
+    font-weight: 400;
+    color: #6E8098;
+}
