@@ -172,3 +172,13 @@
         display: flex;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .app__searchbar {
+        height: 8vh;
+        top: 16%;
+    }
+    .app__searchbar_searchinput {
+        font-size: 3vw;
+    }
+}
