@@ -46,12 +46,13 @@
 
 .jobinfo__header-text h1 {
     margin-bottom: 1vh;
-    font-size: calc(1vw + 10px);
+    font-size: 24px;
     color: #19202D;
 }
 
 .jobinfo__header-text p {
     color: #6E8098;
+    font-size: 16px;
 }
 
 .jobinfo__header-btn {
@@ -64,7 +65,7 @@
 .jobinfo__header-btn button {
     font-family: var(--font-alt);
     font-weight: 600;
-    font-size: calc(1vw - 2px);
+    font-size: 16px;
     padding: 2vh 1.5vw;
     border-radius: 5px;
     color: #5964E0;
@@ -96,7 +97,7 @@
 .jobinfo__profile-banner {
     display: flex;
     align-items: center;
-    margin-bottom: 4vh;
+    margin-bottom: 40px;
 }
 
 .jobinfo__profile-banner-left {
@@ -106,6 +107,7 @@
 .jobinfo__keystats {
     color: #6E8098;
     font-weight: 400;
+    font-size: 14px;
     margin-bottom: 5px;
 }
 
@@ -118,13 +120,13 @@
 }
 
 .jobinfo__keystats-title {
-    font-size: calc(1vw + 10px);
-    margin-bottom: 5px;
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .jobinfo__keystats-location {
     color: #5964E0;
-    font-size: calc(1vw - 2px);
+    font-size: 16px;
 }
 
 .jobinfo__profile-banner-right {
@@ -135,19 +137,77 @@
 }
 
 .jobinfo__heading {
-    font-size: calc(1vw + 4px);
+    font-size: 24px;
     margin-bottom: 20px;
 }
 
 .jobinfo__text {
     color: #6E8098;
-    font-size: calc(1vw - 4px);
+    font-size: 16px;
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     line-height: 30px;
 }
 
 .jobinfo__list {
     margin-left: 1vw;
+}
+
+@media screen and (max-width: 1000px) {
+    .jobinfo__header {
+        width: 90vw;
+    }
+
+    .jobinfo__profile {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .jobinfo__header {
+        flex-direction: column;
+        height: 24vh;
+        padding: 1vh 0vw;
+    }
+
+    .jobinfo__header-logo {
+        flex: 1;
+        width: 60px;
+        margin-top: -30px;
+        border-radius: 10px;
+    }
+
+    .jobinfo__header-logo-image {
+        width: 80%;
+    }
+
+    .jobinfo__header-text {
+        text-align: center;
+        align-items: center;
+    }
+
+    .jobinfo__header-btn button {
+        width: 200px;
+    }
+
+    .jobinfo__profile {
+        margin-top: 20vh;
+        padding: 40px 20px;
+    }
+
+    .jobinfo__profile-banner {
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .jobinfo__profile-banner-right {
+        width: 100%;
+    }
+
+    .jobinfo__heading {
+        font-size: 20px;
+    }
 }
 

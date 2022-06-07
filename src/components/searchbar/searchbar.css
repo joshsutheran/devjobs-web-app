@@ -86,12 +86,12 @@
 
 .btn__style {
     background-color: #5964E0;
-    width: 8vw;
-    height: 6vh;
+    width: 150px;
+    height: 60px;
     border-radius: 10px;
     border: none;
     font-family: var(--font-alt);
-    font-size: 1vw;
+    font-size: 16px;
     color: white;
     font-weight: 600;
     cursor: pointer;
@@ -143,7 +143,7 @@
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 700px) {
 
     .app__searchbar_search-icon {
         display: none;
@@ -170,6 +170,11 @@
 
     .app__searchbar_type-hidden {
         display: flex;
+    }
+
+    .btn__style {
+        width: 250px;
+        font-size: 16px;
     }
 }
 

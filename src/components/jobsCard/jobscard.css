@@ -70,14 +70,21 @@
     .job__company {
         margin-top: 2vh;
     }
-}
 
-@media screen and (max-width: 750px) {
     .job__image {
         width: 15%;
     }
+}
 
+@media screen and (max-width: 800px) {
     .job__position {
         font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .job__position {
+        font-size: 6vw;
+        margin-top: 2vh;
     }
 }

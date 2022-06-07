@@ -1,8 +1,8 @@
 .footer {
     height: 10vh;
     background-color: white;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,13 +13,23 @@
 }
 
 .footer__info-title {
-    font-size: calc(1vw + 2px);
+    font-size: 24px;
     font-weight: 700;
     margin-bottom: 1vh;
 }
 
 .footer__info-company {
-    font-size: calc(1vw - 2px);
+    font-size: 16px;
     font-weight: 400;
     color: #6E8098;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer {
+        margin: 0% 5%;
+    }
+
+    .btn__style-footer {
+        width: 120px;
+    }
 }

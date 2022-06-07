@@ -34,5 +34,8 @@
     .app__header {
         background-image: url(../../assets/mobile/bg-pattern-header.svg);
         background-size: cover;
+        align-items: flex-start;
+        height: 18vh;
+        padding-top: 30px;
     }
 }

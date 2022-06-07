@@ -8,7 +8,7 @@ const Footer = (props) => {
                 <h4 className='footer__info-company'>{props.job.company}</h4>
             </div>
             <div className="footer__info-btn">
-                <button onClick={(() => alert('Job Application Would Open!'))} className='btn__style'>Apply Now</button>
+                <button onClick={(() => alert('Job Application Would Open!'))} className='btn__style btn__style-footer'>Apply Now</button>
             </div>
         </div>
     )
