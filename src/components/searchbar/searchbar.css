@@ -33,7 +33,7 @@
     margin-right: 1vw;
     height: 6vh;
     border: none;
-    font-size: 1vw;
+    font-size: 14px;
     font-family: var(--font-alt);
 }
 
@@ -59,7 +59,7 @@
     height: 4vh;
     outline: none;
     border: none;
-    font-size: 1vw;
+    font-size: 14px;
     font-family: var(--font-alt);
 }
 
@@ -79,9 +79,9 @@
 .app__searchbar_type-checkbox {
     margin-right: 0.75vw;
     padding: 1rem;
-    font-size: 1.2vw;
+    font-size: 14px;
     font-family: var(--font-alt);
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .btn__style {
@@ -128,7 +128,7 @@
     }
 
     .app__searchbar_searchinput, .app__searchbar_location-filter, .app__searchbar_type-checkbox, .btn__style {
-        font-size: 1.4vw;
+        font-size: 14px;
     }
     .app__searchbar_go {
         justify-content: center;
@@ -178,12 +178,12 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .app__searchbar {
         height: 8vh;
         top: 16%;
     }
     .app__searchbar_searchinput {
-        font-size: 3vw;
+        font-size: 16px;
     }
 }

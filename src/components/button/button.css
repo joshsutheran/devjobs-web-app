@@ -6,11 +6,11 @@
 }
 
 .btn {
-    padding: 1vw 1.75vw;
-    min-width: 10vw;
+    padding: 20px 30px;
+    width: 150px;
     font-family: 'Kumbh Sans', serif;
     color: white;
-    font-size: 1.25vw;
+    font-size: 14px;
     text-align: center;
     border: none;
     border-radius: 10px;

@@ -87,4 +87,8 @@
         font-size: 6vw;
         margin-top: 2vh;
     }
+
+    .job__info {
+        margin-left: 20px;
+    }
 }
